@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Színözön</title>
+</head>
+<body>
+    <div id="container">
+        <div id="szintipp"></div>
+        <div id="csuszkak">
+            <p>RGB(<span id="rednum"></span>, <span id="greennum"></span>, <span id="bluenum"></span>)</p>
+            <input type="range" min="0" max="255" class="sliders" id="R" value="0" width="100%">
+            <input type="range" min="0" max="255" class="sliders" id="G" value="0" width="100%">
+            <input type="range" min="0" max="255" class="sliders" id="B" value="0" width="100%">
+        </div>
+        <button id="tipp">TIPP</button>
+    </div>
+
+    <script src="szinozon.js" defer></script>
+</body>
+</html>
